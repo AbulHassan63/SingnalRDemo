@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div id="articleList"></div>
+</div>
+<script>
+     function ready() {
+}
+     //random number between 1 and 100 for demo
+     var userId = Math.floor((Math.random() * 100) + 1); document.addEventListener("DOMContentLoaded", ready);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.3/signalr.min.js"></script>
+<script src="~/js/notification.js"></script>
+
